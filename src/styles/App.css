@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.jumbotron {
+  margin: 0;
+}
+.header-tag {
+  background-image: url('../imgs/WillFerrell-SayWhat2.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

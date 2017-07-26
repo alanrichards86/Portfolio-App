@@ -1,0 +1,18 @@
+.aboutDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.paraDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img2_Div {
+  width: 70vw;
+  height: 20vh;
+  align-self: center;
+}
+.img2 {
+  width: 100%
+}
