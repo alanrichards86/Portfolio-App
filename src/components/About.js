@@ -16,7 +16,7 @@ export default class About extends Component {
           </div>
             <br/>
           <p>
-            Well That is why I am here! I started doing pushups when I was 10 and I did not stop for 3 years.
+            Well that is why I am here! I started doing pushups when I was 10 and I did not stop for 3 years.
             <br/>
             <br/>
             <br/>
