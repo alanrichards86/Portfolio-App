@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import '../styles/App.css';
 
@@ -13,19 +13,27 @@ export default class App extends Component {
         <ul className='nav flex-column'>
 
           <li className='nav-item'>
-              <div><Link className="nav-link active" to='/'>Home Page</Link></div>
+              <div><NavLink className="nav-link active" exact to='/'>Home Page</NavLink></div>
           </li>
 
           <li className='nav-item'>
-            <div><Link className="nav-link" to='/about'>About</Link></div>
+            <div><NavLink className="nav-link" to='/about'>About</NavLink></div>
           </li>
 
           <li className='nav-item'>
-            <div><Link className="nav-link" to='/portfolio'>Portfolio</Link></div>
+            <div><NavLink className="nav-link" to='/portfolio'>Portfolio</NavLink></div>
           </li>
 
           <li className='nav-item'>
-            <div><Link className="nav-link" to='/base'>For Fun Click Here...</Link></div>
+            <div><NavLink className="nav-link" to='/base'>For Fun Click Here...</NavLink></div>
+          </li>
+
+          <li className='nav-item'>
+            <div><NavLink className="nav-link" to='/contact'>Contact Us</NavLink></div>
+          </li>
+
+          <li className='nav-item'>
+              <div><NavLink className="nav-link active" to='/references'>References</NavLink></div>
           </li>
 
         </ul>

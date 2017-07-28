@@ -1,0 +1,16 @@
+.fieldSet {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.fieldSet input, textarea {
+  margin: auto;
+  width: 50%;
+  margin-top: .5em;
+  box-shadow: 5px 5px 5px black;
+}
+.submitButton {
+  margin: auto;
+  margin-top: .5em;
+  width: 20%;
+}

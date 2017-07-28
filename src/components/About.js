@@ -7,7 +7,8 @@ export default class About extends Component {
   render() {
     return (
       <div className="aboutDiv">
-        <h1>About</h1>
+
+        <br/>
 
         <div className='paraDiv'>
           <p>Do you want to be huge ?!?</p>

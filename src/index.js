@@ -8,7 +8,9 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Baselayout from './components/Baselayout';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
-import Home from './components/Home'
+import Home from './components/Home';
+import Contacts from './components/Contacts';
+import References from './components/References';
 
 
 
@@ -22,6 +24,8 @@ ReactDOM.render(
         <Route path='/base' component={Baselayout}/>
         <Route path='/portfolio' component={Portfolio}/>
         <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contacts}/>
+        <Route path='/references' component={References}/>
       </Switch>
 
     </App>
